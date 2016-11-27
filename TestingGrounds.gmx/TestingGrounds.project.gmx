@@ -8,15 +8,21 @@
   <sprites name="sprites">
     <sprites name="Ben's">
       <sprite>sprites\spr_floor</sprite>
-      <sprite>sprites\spr_playertest</sprite>
       <sprite>sprites\spr_wall</sprite>
+      <sprites name="UI">
+        <sprite>sprites\spr_healthbar_border</sprite>
+      </sprites>
+      <sprites name="Player">
+        <sprite>sprites\spr_player2</sprite>
+        <sprite>sprites\spr_player1</sprite>
+      </sprites>
     </sprites>
-    <sprite>sprites\sprites</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\otestplayer</object>
+    <object>objects\oPlayer1</object>
+    <object>objects\oPlayer2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
